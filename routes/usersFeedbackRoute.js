@@ -6,4 +6,4 @@ const router = express.Router();
 router.route("/")
      .get(usersFeedbackController.getUsersFeedback);
 
-module.exports =  router;
+module.exports = router;
