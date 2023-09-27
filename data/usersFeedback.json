@@ -1,0 +1,37 @@
+[
+  {
+    "name": "Jessica Andradre",
+    "occupation": "Professora de geografia",
+    "feedback":
+      "Usei uClimate em minhas aulas e fiquei verdadeiramente impressionada! Esse app não só apresenta informações atualizadas sobre o clima de forma clara e precisa, mas também nos oferece gráficos e animações que facilitam o entendimento dos processos atmosféricos.",
+    "img": "./img/jessica.jpg"
+  },
+  {
+    "name": "João Nascimento",
+    "occupation": "Pescador casual",
+    "feedback":
+      "Uso o aplicativo antes de sair pra pescar. As previsões são certeiras, mostrando-me as melhores condições para a pescaria, e os alertas sobre mudanças no clima garantem que eu não sou pego de surpresa por uma tempestade.",
+    "img": "./img/joao.jpg"
+  },
+  {
+    "name": "Marcos Lacerda",
+    "occupation": "Surfista profissional",
+    "feedback":
+      "Utilizo sempre antes de pegar umas ondas! Posso saber com antecedência as melhores janelas de swell. Além disso, o app dá informações detalhadas sobre ventos e marés, essenciais para pegar aquela onda perfeita.  Pra quem vive atrás das melhores condições pra surfar esse app é um game-changer.",
+    "img": "./img/marcelo.jpg"
+  },
+  {
+    "name": "Tiago da Silva",
+    "occupation": "Graduando de jornalismo",
+    "feedback":
+      "Estou sempre buscando recursos para entender melhor os fenômenos atmosféricos, e esse aplicativo de meteorologia foi uma descoberta incrível! Foi essencial para os meus estudos e, certamente, recomendo para todos que buscam uma compreensão mais aprimorada em meteorologia. Estou muito satisfeito!",
+    "img": "./img/tiago.png"
+  },
+  {
+    "name": "Sabrina Lefrontáine",
+    "occupation": "Agente de viagens",
+    "feedback":
+      "Aprecio a eficiência e precisão do aplicativo ao agendar e planejar minhas viagens de cruzeiro. Escolho datas com condições climáticas favoráveis, maximizando minha experiência a bordo e evitando possíveis contratempos relacionados ao clima quando paramos na costa.",
+    "img": "./img/sabrina.jpg"
+  }
+]
