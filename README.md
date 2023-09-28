@@ -19,8 +19,6 @@ Para executar propriamente a aplicação, é necessário iniciar o back-end com 
 
  `Express: framework escolhido, em associação com as dependências Nodemon e Cors, para criação e organização do back-end.`
 
- `API OpenWeather: principal API da aplicação. É consumida no back-end para retornar previsões climáticas de acordo com as cidades que foram escolhidas no front-end.`
-
   `API OpenWeather: principal API da aplicação. É consumida no back-end para retornar previsões climáticas de acordo com as cidades que foram escolhidas no front-end. Essa API está vinculado à outra API que é consumida no front-end chamada Geoapify. A utilização da Geoapify foi necessária para descobrir a longitude e latitude das cidades escolhidas no front.`
  
 * [Introdução](#Introducao)
@@ -29,17 +27,13 @@ O presente projeto foi realizado tendo como objetivo o desenvolvimento de uma ap
 
 * [Descrição do projeto](#Descriçao-do-projeto)
 
-<p>A aplicação foi projetada visando simular um site institucional que promova o aplicativo uClimate, como se tivesse sido desenvolvido pela empresa uTech de soluções tecnológicas situada em Florianópolis, a fim de contextualizar as funcionalidades para agregar valor à experiência do usuário. 
+<p>O back-end da aplicação uClimate foi desenvolvido empregando o conceito MVC (Model-Viewer-Controller) para fins de organização do projeto. Por conta disso, cada rota do back-end utilizará seu respectivo controlador para executar os métodos GET ou POST quando requisitados.
 
-Das páginas:
+Das rotas:
 
->A página 'Home' foi desenvolvida como sendo uma landing page contendo informações relevantes a respeito do aplicativo uTech.
+>A rota '/api/v1/weather-forecast' foi desenvolvida como sendo a principal fonte de dados dinâmicos entre back-end e front-end. Ela possui um método Get para retornar a previsão climática especificamente da cidade de Florianópolis e possui um método Post que retornará a previsão climática das cidades escolhidas no front-end.
 
->A página 'Florianópolis', com endereço /previsao-florianopoli, traz do back-end a previsão climática e algumas estatísticas da cidade de Florianópolis.
-
->A página 'Dashboard', com endereço /dashboard, foi desenvolvida como se fosse um dashboard climático que fornece ao usuário a previsão do tempo com informações relevantes do clima dos próximos 4 dias da cidade escolhida no formulário.
-
->A página 'CityAnalytics', com endereço /city-analytics, foi desenvolvida como se fosse um comparador de climas entre duas cidades diferentes, retornando ao usuário a previsão do tempo de ambas, dos próximos quatro dias, com suas respectivas amplitudes térmicas.
+> A rota '/api/v1/usersFeedback' foi desenvolvida como se uma fonte de dados estática, ou mock, referente ao feedback que usuários da uClimate já compartilharam para ser consumida na landing page do front-end.
 
 </p>
 
